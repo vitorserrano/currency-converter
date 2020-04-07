@@ -76,6 +76,10 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#666',
     },
+
+    currentValue: {
+        flexDirection: 'row',
+    },
     
     resultText: {
         fontSize: 14,

@@ -20,7 +20,7 @@ export default function Convertions() {
     const response = await api.get("/all");
     const { data } = response;
 
-    let array = [];
+    let array = []; 
 
     Object.entries(data).forEach(([key, value]) => {
       value.id = key;
@@ -54,7 +54,7 @@ export default function Convertions() {
           <Image source={logoImg} style={styles.logo} />
         </View>
 
-        <Text style={styles.title}>Total de conversões: 5</Text>
+      <Text style={styles.title}>Total de conversões: {conversions.length}</Text>
       </View>
 
       <Text style={styles.subtitle}>Conversão de Moedas</Text>

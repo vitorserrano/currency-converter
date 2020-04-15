@@ -1,5 +1,5 @@
 <h1 align="center"> 
-    Search Devs
+    Currency Converter
 </h1>
 
 ### :rocket: Tecnologias Utilizadas
